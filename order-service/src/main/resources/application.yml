@@ -10,7 +10,7 @@ spring:
     name: orderservice
   cloud:
     nacos:
-      server-addr: localhost:8848 # nacos服务地址
+      server-addr: localhost:80 # nacos服务地址
       discovery:
         cluster-name: HZ
         namespace: 2b5e168e-ef79-4f2b-8470-affcbce058d0 # dev环境
