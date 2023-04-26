@@ -13,7 +13,7 @@ spring:
       server-addr: localhost:80 # nacos服务地址
       discovery:
         cluster-name: HZ
-        namespace: 2b5e168e-ef79-4f2b-8470-affcbce058d0 # dev环境
+#        namespace: 2b5e168e-ef79-4f2b-8470-affcbce058d0 # dev环境
         ephemeral: false # 是否是临时实例
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
